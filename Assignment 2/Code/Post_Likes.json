@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "6175723af1ab2720ac21710b"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3333"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac3327"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac21710c"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3334"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac3328"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac21710d"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3335"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac3329"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac21710e"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3336"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332a"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac21710f"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3337"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332b"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac217110"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3338"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332c"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac217111"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac3339"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332d"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac217112"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac333a"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332e"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac217113"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac333b"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac332f"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6175723af1ab2720ac217114"
+  },
+  "post_id": {
+    "$ref": "Posts",
+    "$id": {
+      "$oid": "6173ba05ce3cd7dfabac333c"
+    }
+  },
+  "liker_id": {
+    "$ref": "User",
+    "$id": {
+      "$oid": "61739cb1ce3cd7dfabac3326"
+    }
+  }
+}]
