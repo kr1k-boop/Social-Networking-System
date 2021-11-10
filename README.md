@@ -19,11 +19,11 @@ This repository contains source code for the Mini-Project we built as part of th
 - Retrieving the total number of posts for the user with ID "617398d4ce3cd7dfabac3326"
 - Retrieving the First Name, Last Name, Username, Email, Date of Birth, Age for the user with ID "617398d4ce3cd7dfabac332c"
 ### Complex Queries
-- Retrieving the name and ID of all friends for the user with ID XXX
-- Retrieving details of all users who attended school at XXX
+- XXX
 - Retrieving the content of all fleets for the user with ID "617398d4ce3cd7dfabac332c"
-- Retrieving all posts with over XXX likes
-- Retrieving all mutual friends between users with IDs XXX and XXX
+- Retrieving all posts with over 10 likes and under 10 likes
+- Retrieving the ID of all friends for the user with ID "617398d4ce3cd7dfabac3326" and storing in an Array
+- Retrieving all mutual friends between users with IDs "617398d4ce3cd7dfabac3326" and "617398d4ce3cd7dfabac3327" using filters
 
 ## Contributors
 - [Kartika Nair](https://github.com/kartika-nair)
