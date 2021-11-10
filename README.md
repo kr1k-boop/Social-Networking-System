@@ -16,11 +16,11 @@ This repository contains source code for the Mini-Project we built as part of th
 - Retrieving details of all users living in Germany
 - Retrieving details of all users who are under 20 years of age
 - Retrieving all usernames in the Social Network
-- Retrieving the total number of posts for the user with ID "617398d4ce3cd7dfabac3326"
+- Retrieving the content of all fleets for the user with ID "617398d4ce3cd7dfabac332c"
 - Retrieving the First Name, Last Name, Username, Email, Date of Birth, Age for the user with ID "617398d4ce3cd7dfabac332c"
 ### Complex Queries
-- XXX
-- Retrieving the content of all fleets for the user with ID "617398d4ce3cd7dfabac332c"
+- Retrieving all posts that contain the word "LOREM", and their corresponding user IDs
+- Retrieving the total number of posts for the user with ID "617398d4ce3cd7dfabac3326" via count
 - Retrieving all posts with over 10 likes and under 10 likes
 - Retrieving the ID of all friends for the user with ID "617398d4ce3cd7dfabac3326" and storing in an Array
 - Retrieving all mutual friends between users with IDs "617398d4ce3cd7dfabac3326" and "617398d4ce3cd7dfabac3327" using filters
