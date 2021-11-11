@@ -1,0 +1,177 @@
+//friends
+
+db.Friends.insertMany([
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3328")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Inger Landreth",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3329")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Tilda Andrusyak",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332a")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Calhoun Colly",
+   "follow_status": "No"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332b")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Bertrando Szach",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332c")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Ashien Jeremiah",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332d")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Robbin Aiers",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332e")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3326")},
+   "name" : "Eugen Mouan",
+   "follow_status": "Yes"
+}
+]) 
+
+db.Friends.insertMany([
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3328")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Inger Landreth",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3329")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Tilda Andrusyak",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332a")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Calhoun Colly",
+   "follow_status": "No"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332b")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Bertrando Szach",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d6")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Abbe Yakunin",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d7")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Murielle Stook",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d8")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Theressa Hammand",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d9")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Dudley Corssen",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55da")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Pearl Lyes",
+   "follow_status": "Yes"
+},
+{
+  "friend_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55db")},
+   "friend_of": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac3327")},
+   "name" : "Jacki McCathy",
+   "follow_status": "Yes"
+}
+])

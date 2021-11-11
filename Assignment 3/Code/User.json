@@ -1,0 +1,281 @@
+db.User.insertMany([{
+  "f_name": "Muhammad",
+  "l_name": "Nevet",
+  "username": "Muhammad.Nevet",
+  "email": "mnevet0@about.com",
+  "dob": "28/11/1964",
+  "age": 56
+}, {
+  "f_name": "Stoddard",
+  "l_name": "Anersen",
+  "username": "Stoddard.Anersen",
+  "email": "sanersen1@mashable.com",
+  "dob": "12/10/1996",
+  "age": 25
+}, {
+  "f_name": "Denver",
+  "l_name": "Abrahams",
+  "username": "Denver.Abrahams",
+  "email": "dabrahams2@time.com",
+  "dob": "15/11/1979",
+  "age": 42
+}, {
+  "f_name": "Lurlene",
+  "l_name": "Daviot",
+  "username": "Lurlene.Daviot",
+  "email": "ldaviot3@ask.com",
+  "dob": "03/09/1956",
+  "age": 65
+}, {
+  "f_name": "Eba",
+  "l_name": "Errol",
+  "username": "Eba.Errol",
+  "email": "eerrol4@php.net",
+  "dob": "14/03/1967",
+  "age": 54
+}, {
+  "f_name": "Phelia",
+  "l_name": "Lapley",
+  "username": "Phelia.Lapley",
+  "email": "plapley5@weibo.com",
+  "dob": "10/07/1999",
+  "age": 22
+}, {
+  "f_name": "Debi",
+  "l_name": "Leedal",
+  "username": "Debi.Leedal",
+  "email": "dleedal6@devhub.com",
+  "dob": "17/12/1958",
+  "age": 62
+}, {
+  "f_name": "Garnette",
+  "l_name": "Brassington",
+  "username": "Garnette.Brassington",
+  "email": "gbrassington7@usatoday.com",
+  "dob": "14/12/1956",
+  "age": 64
+}, {
+  "f_name": "Erda",
+  "l_name": "Rocca",
+  "username": "Erda.Rocca",
+  "email": "erocca8@ocn.ne.jp",
+  "dob": "14/01/1963",
+  "age": 58
+}, {
+  "f_name": "Carry",
+  "l_name": "Cassy",
+  "username": "Carry.Cassy",
+  "email": "ccassy9@si.edu",
+  "dob": "13/03/1946",
+  "age": 75
+}, {
+  "f_name": "Abbe",
+  "l_name": "Yakunin",
+  "username": "Abbe.Yakunin",
+  "email": "ayakunina@whitehouse.gov",
+  "dob": "08/10/1983",
+  "age": 38
+}, {
+  "f_name": "Murielle",
+  "l_name": "Stook",
+  "username": "Murielle.Stook",
+  "email": "mstookb@bloglovin.com",
+  "dob": "23/08/2002",
+  "age": 19
+}, {
+  "f_name": "Theressa",
+  "l_name": "Hammand",
+  "username": "Theressa.Hammand",
+  "email": "thammandc@spotify.com",
+  "dob": "22/08/1983",
+  "age": 38
+}, {
+  "f_name": "Dudley",
+  "l_name": "Corssen",
+  "username": "Dudley.Corssen",
+  "email": "dcorssend@altervista.org",
+  "dob": "10/03/1965",
+  "age": 56
+}, {
+  "f_name": "Pearl",
+  "l_name": "Lyes",
+  "username": "Pearl.Lyes",
+  "email": "plyese@smugmug.com",
+  "dob": "09/11/1945",
+  "age": 76
+}, {
+  "f_name": "Jacki",
+  "l_name": "McCathy",
+  "username": "Jacki.McCathy",
+  "email": "jmccathyf@toplist.cz",
+  "dob": "14/10/1963",
+  "age": 58
+}, {
+  "f_name": "Elia",
+  "l_name": "Chapier",
+  "username": "Elia.Chapier",
+  "email": "echapierg@gmpg.org",
+  "dob": "12/07/1959",
+  "age": 62
+}, {
+  "f_name": "Nicolea",
+  "l_name": "Hevner",
+  "username": "Nicolea.Hevner",
+  "email": "nhevnerh@spotify.com",
+  "dob": "20/12/1969",
+  "age": 51
+}, {
+  "f_name": "Vanda",
+  "l_name": "Yearne",
+  "username": "Vanda.Yearne",
+  "email": "vyearnei@sohu.com",
+  "dob": "13/07/1947",
+  "age": 74
+}, {
+  "f_name": "Winnah",
+  "l_name": "Steffan",
+  "username": "Winnah.Steffan",
+  "email": "wsteffanj@loc.gov",
+  "dob": "29/04/1996",
+  "age": 25
+}, {
+  "f_name": "Cathrin",
+  "l_name": "Macauley",
+  "username": "Cathrin.Macauley",
+  "email": "cmacauleyk@mysql.com",
+  "dob": "09/03/1962",
+  "age": 59
+}, {
+  "f_name": "Valentine",
+  "l_name": "Choffin",
+  "username": "Valentine.Choffin",
+  "email": "vchoffinl@oracle.com",
+  "dob": "06/09/1977",
+  "age": 44
+}, {
+  "f_name": "Andy",
+  "l_name": "Grinyakin",
+  "username": "Andy.Grinyakin",
+  "email": "agrinyakinm@cloudflare.com",
+  "dob": "12/04/1960",
+  "age": 61
+}, {
+  "f_name": "Arne",
+  "l_name": "Farncombe",
+  "username": "Arne.Farncombe",
+  "email": "afarncomben@yellowpages.com",
+  "dob": "16/11/1967",
+  "age": 54
+}, {
+  "f_name": "Tandie",
+  "l_name": "Lysaght",
+  "username": "Tandie.Lysaght",
+  "email": "tlysaghto@naver.com",
+  "dob": "28/01/1956",
+  "age": 65
+}, {
+  "f_name": "Jon",
+  "l_name": "Arnatt",
+  "username": "Jon.Arnatt",
+  "email": "jarnattp@symantec.com",
+  "dob": "29/06/2002",
+  "age": 19
+}, {
+  "f_name": "Maighdiln",
+  "l_name": "Edwicker",
+  "username": "Maighdiln.Edwicker",
+  "email": "medwickerq@diigo.com",
+  "dob": "01/06/1976",
+  "age": 45
+}, {
+  "f_name": "Maurizio",
+  "l_name": "Humpage",
+  "username": "Maurizio.Humpage",
+  "email": "mhumpager@nifty.com",
+  "dob": "06/03/1962",
+  "age": 59
+}, {
+  "f_name": "Ferne",
+  "l_name": "Dulling",
+  "username": "Ferne.Dulling",
+  "email": "fdullings@g.co",
+  "dob": "17/01/1998",
+  "age": 23
+}, {
+  "f_name": "Tony",
+  "l_name": "Croney",
+  "username": "Tony.Croney",
+  "email": "tcroneyt@ovh.net",
+  "dob": "14/01/1954",
+  "age": 67
+}, {
+  "f_name": "Gabrila",
+  "l_name": "Gudyer",
+  "username": "Gabrila.Gudyer",
+  "email": "ggudyeru@issuu.com",
+  "dob": "06/07/1971",
+  "age": 50
+}, {
+  "f_name": "Leicester",
+  "l_name": "Scamaden",
+  "username": "Leicester.Scamaden",
+  "email": "lscamadenv@fastcompany.com",
+  "dob": "08/04/1961",
+  "age": 60
+}, {
+  "f_name": "Upton",
+  "l_name": "Waryk",
+  "username": "Upton.Waryk",
+  "email": "uwarykw@cdc.gov",
+  "dob": "10/08/1988",
+  "age": 33
+}, {
+  "f_name": "Kristofer",
+  "l_name": "Ghiriardelli",
+  "username": "Kristofer.Ghiriardelli",
+  "email": "kghiriardellix@apple.com",
+  "dob": "10/09/1997",
+  "age": 24
+}, {
+  "f_name": "Gipsy",
+  "l_name": "Swires",
+  "username": "Gipsy.Swires",
+  "email": "gswiresy@about.me",
+  "dob": "23/02/1960",
+  "age": 61
+}, {
+  "f_name": "Dedie",
+  "l_name": "Turner",
+  "username": "Dedie.Turner",
+  "email": "dturnerz@imageshack.us",
+  "dob": "07/09/1947",
+  "age": 74
+}, {
+  "f_name": "Remy",
+  "l_name": "MacCafferty",
+  "username": "Remy.MacCafferty",
+  "email": "rmaccafferty10@com.com",
+  "dob": "05/11/1997",
+  "age": 24
+}, {
+  "f_name": "Dianna",
+  "l_name": "McIlenna",
+  "username": "Dianna.McIlenna",
+  "email": "dmcilenna11@cafepress.com",
+  "dob": "12/08/1992",
+  "age": 29
+}, {
+  "f_name": "Peterus",
+  "l_name": "Widmoor",
+  "username": "Peterus.Widmoor",
+  "email": "pwidmoor12@sun.com",
+  "dob": "09/04/1995",
+  "age": 26
+}, {
+  "f_name": "Minni",
+  "l_name": "Maile",
+  "username": "Minni.Maile",
+  "email": "mmaile13@freewebs.com",
+  "dob": "26/08/1993",
+  "age": 28
+}])

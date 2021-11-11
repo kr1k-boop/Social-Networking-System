@@ -1,0 +1,322 @@
+db.Fleets.insertMany([{
+  "fleet_id": "42-573-0034",
+  "fleet_time": "3/24/2021",
+  "fleet_content": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 171
+}, {
+  "fleet_id": "87-298-7810",
+  "fleet_time": "9/5/2021",
+  "fleet_content": "http://dummyimage.com/224x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 686
+}, {
+  "fleet_id": "09-277-9064",
+  "fleet_time": "3/6/2021",
+  "fleet_content": "http://dummyimage.com/237x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 1276
+}, {
+  "fleet_id": "59-250-6260",
+  "fleet_time": "5/2/2021",
+  "fleet_content": "http://dummyimage.com/190x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 783
+}, {
+  "fleet_id": "83-840-8937",
+  "fleet_time": "8/6/2021",
+  "fleet_content": "http://dummyimage.com/124x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 303
+}, {
+  "fleet_id": "58-252-8952",
+  "fleet_time": "3/7/2021",
+  "fleet_content": "http://dummyimage.com/235x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332f")},
+  "duration": 363
+}, {
+  "fleet_id": "62-133-3865",
+  "fleet_time": "1/28/2021",
+  "fleet_content": "http://dummyimage.com/240x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 883
+}, {
+  "fleet_id": "33-550-6366",
+  "fleet_time": "9/11/2021",
+  "fleet_content": "http://dummyimage.com/111x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 64
+}, {
+  "fleet_id": "88-421-2698",
+  "fleet_time": "10/12/2021",
+  "fleet_content": "http://dummyimage.com/229x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 749
+}, {
+  "fleet_id": "17-577-8907",
+  "fleet_time": "4/23/2021",
+  "fleet_content": "http://dummyimage.com/191x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 647
+}, {
+  "fleet_id": "03-263-6808",
+  "fleet_time": "11/11/2020",
+  "fleet_content": "http://dummyimage.com/221x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 1335
+}, {
+  "fleet_id": "79-684-9181",
+  "fleet_time": "7/30/2021",
+  "fleet_content": "http://dummyimage.com/144x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 557
+}, {
+  "fleet_id": "39-909-3190",
+  "fleet_time": "11/21/2020",
+  "fleet_content": "http://dummyimage.com/150x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 640
+}, {
+  "fleet_id": "64-513-7448",
+  "fleet_time": "7/16/2021",
+  "fleet_content": "http://dummyimage.com/107x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 1319
+}, {
+  "fleet_id": "62-033-6774",
+  "fleet_time": "1/13/2021",
+  "fleet_content": "http://dummyimage.com/156x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332e")},
+  "duration": 561
+}, {
+  "fleet_id": "06-361-3256",
+  "fleet_time": "12/7/2020",
+  "fleet_content": "http://dummyimage.com/241x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 1213
+}, {
+  "fleet_id": "41-118-8002",
+  "fleet_time": "10/1/2021",
+  "fleet_content": "http://dummyimage.com/246x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 818
+}, {
+  "fleet_id": "47-662-9455",
+  "fleet_time": "6/10/2021",
+  "fleet_content": "http://dummyimage.com/161x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 713
+}, {
+  "fleet_id": "31-238-5459",
+  "fleet_time": "12/14/2020",
+  "fleet_content": "http://dummyimage.com/162x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 872
+}, {
+  "fleet_id": "50-878-8217",
+  "fleet_time": "4/30/2021",
+  "fleet_content": "http://dummyimage.com/141x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 846
+}, {
+  "fleet_id": "12-248-0572",
+  "fleet_time": "6/7/2021",
+  "fleet_content": "http://dummyimage.com/136x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 427
+}, {
+  "fleet_id": "51-303-1980",
+  "fleet_time": "10/8/2021",
+  "fleet_content": "http://dummyimage.com/171x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 371
+}, {
+  "fleet_id": "11-791-8330",
+  "fleet_time": "6/22/2021",
+  "fleet_content": "http://dummyimage.com/247x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 388
+}, {
+  "fleet_id": "53-126-7069",
+  "fleet_time": "7/20/2021",
+  "fleet_content": "http://dummyimage.com/190x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 1160
+}, {
+  "fleet_id": "92-305-2647",
+  "fleet_time": "10/21/2021",
+  "fleet_content": "http://dummyimage.com/243x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 1405
+}, {
+  "fleet_id": "40-760-2009",
+  "fleet_time": "3/24/2021",
+  "fleet_content": "http://dummyimage.com/213x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 1014
+}, {
+  "fleet_id": "04-249-8696",
+  "fleet_time": "4/29/2021",
+  "fleet_content": "http://dummyimage.com/191x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 144
+}, {
+  "fleet_id": "86-647-9584",
+  "fleet_time": "11/27/2020",
+  "fleet_content": "http://dummyimage.com/108x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332d")},
+  "duration": 1050
+}, {
+  "fleet_id": "58-056-0963",
+  "fleet_time": "4/30/2021",
+  "fleet_content": "http://dummyimage.com/138x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332c")},
+  "duration": 639
+}, {
+  "fleet_id": "16-192-4549",
+  "fleet_time": "12/1/2020",
+  "fleet_content": "http://dummyimage.com/207x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332c")},
+  "duration": 190
+}, {
+  "fleet_id": "18-617-7162",
+  "fleet_time": "6/8/2021",
+  "fleet_content": "http://dummyimage.com/247x100.png/cc0000/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332c")},
+  "duration": 1235
+}, {
+  "fleet_id": "75-261-6005",
+  "fleet_time": "12/3/2020",
+  "fleet_content": "http://dummyimage.com/217x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332c")},
+  "duration": 1096
+}, {
+  "fleet_id": "28-604-9759",
+  "fleet_time": "2/13/2021",
+  "fleet_content": "http://dummyimage.com/102x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332c")},
+  "duration": 998
+}, {
+  "fleet_id": "32-010-4648",
+  "fleet_time": "9/15/2021",
+  "fleet_content": "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332b")},
+  "duration": 1278
+}, {
+  "fleet_id": "96-842-2206",
+  "fleet_time": "2/18/2021",
+  "fleet_content": "http://dummyimage.com/196x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332b")},
+  "duration": 622
+}, {
+  "fleet_id": "81-197-7918",
+  "fleet_time": "3/9/2021",
+  "fleet_content": "http://dummyimage.com/239x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332b")},
+  "duration": 1346
+}, {
+  "fleet_id": "99-280-3753",
+  "fleet_time": "9/28/2021",
+  "fleet_content": "http://dummyimage.com/159x100.png/ff4444/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332b")},
+  "duration": 340
+}, {
+  "fleet_id": "80-562-5067",
+  "fleet_time": "2/21/2021",
+  "fleet_content": "http://dummyimage.com/177x100.png/dddddd/000000",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332b")},
+  "duration": 855
+}, {
+  "fleet_id": "01-538-3262",
+  "fleet_time": "3/27/2021",
+  "fleet_content": "http://dummyimage.com/158x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332a")},
+  "duration": 712
+}, {
+  "fleet_id": "13-528-2833",
+  "fleet_time": "7/1/2021",
+  "fleet_content": "http://dummyimage.com/220x100.png/5fa2dd/ffffff",
+  "username": {
+   "$ref": "User",
+   "$id":  ObjectId("617398d4ce3cd7dfabac332a")},
+  "duration": 15
+}]
+)

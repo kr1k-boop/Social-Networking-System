@@ -1,0 +1,256 @@
+//Education
+db.Education.insertMany(
+[ {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332e")},
+  "institute": "Fachhochschule Furtwangen, Hochschule für Technik und Wirtschaft",
+  "grad_year": 1996
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("617398d4ce3cd7dfabac332f")},
+  "institute": "Universidad Bolivariana",
+  "grad_year": 2007
+},
+  {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55cc")},
+  "institute": "Ashland University",
+  "grad_year": 1998
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55cd")},
+  "institute": "Universitas Gadjah Mada",
+  "grad_year": 2009
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ce")},
+  "institute": "Universidad Nacional de Catamarca",
+  "grad_year": 2002
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55cf")},
+  "institute": "University of Calabar",
+  "grad_year": 2012
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d0")},
+  "institute": "Springfield College",
+  "grad_year": 2011
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d1")},
+  "institute": "Maakhir University",
+  "grad_year": 1986
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d2")},
+  "institute": "Strathmore University",
+  "grad_year": 2003
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d3")},
+  "institute": "University of the Immaculate Conception",
+  "grad_year": 2004
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d4")},
+  "institute": "Universität Bielefeld",
+  "grad_year": 2009
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d5")},
+  "institute": "Lappeenranta University of Technology",
+  "grad_year": 2004
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d6")},
+  "institute": "Universidad de Holguín",
+  "grad_year": 1994
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d7")},
+  "institute": "Inchon National University of Education",
+  "grad_year": 1998
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d8")},
+  "institute": "Université de Rouen - Haute Normandie",
+  "grad_year": 2007
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55d9")},
+  "institute": "Universiti Islam Sultan Sharif Ali",
+  "grad_year": 2009
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55da")},
+  "institute": "St. Mary's University of San Antonio",
+  "grad_year": 1990
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55db")},
+  "institute": "Shepherd College",
+  "grad_year": 2001
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55dc")},
+  "institute": "Universidad Abierta Para Adultos",
+  "grad_year": 2008
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55dd")},
+  "institute": "University of Neuchatel",
+  "grad_year": 1993
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55de")},
+  "institute": "Technological Education Institute of Epiros",
+  "grad_year": 1994
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55df")},
+  "institute": "Castleton State College",
+  "grad_year": 2000
+}, {
+  "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e0")},
+  "institute": "Knoxville College",
+  "grad_year": 1987
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e1")},
+  "institute": "Butler University",
+  "grad_year": 2011
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e2")},
+  "institute": "Universidad Amazonica de Pando",
+  "grad_year": 2009
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e3")},
+  "institute": "Saxion Universities ",
+  "grad_year": 1994
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e4")},
+  "institute": "Universidad Argentina \"John F. Kennedy\"",
+  "grad_year": 2001
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e5")},
+  "institute": "Lewis & Clark Community College",
+  "grad_year": 2006
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e6")},
+  "institute": "Wimbledon School of Art",
+  "grad_year": 1992
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e7")},
+  "institute": "King's College",
+  "grad_year": 2006
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e8")},
+  "institute": "Instituto Tecnológico de Costa Rica",
+  "grad_year": 1985
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55e9")},
+  "institute": "University of New England",
+  "grad_year": 1994
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ea")},
+  "institute": "Universidad de Montevideo",
+  "grad_year": 2003
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55eb")},
+  "institute": "Universidad Católica Nordestana",
+  "grad_year": 2003
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ec")},
+  "institute": "UNESCO-IHE Institute for Water Education",
+  "grad_year": 1998
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ed")},
+  "institute": "Universidad de Antioquía",
+  "grad_year": 1985
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ee")},
+  "institute": "Tezukayama Gakuin University",
+  "grad_year": 1998
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55ef")},
+  "institute": "Minamikyushu University",
+  "grad_year": 1973
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55f0")},
+  "institute": "University of Ostrava",
+  "grad_year": 1988
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55f1")},
+  "institute": "Augustana Hochschule Neuendettelsau",
+  "grad_year": 1990
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55f2")},
+  "institute": "Necmettin Erbakan University",
+  "grad_year": 2009
+}, {
+    "user_id": {
+   "$ref": "User",
+   "$id":   ObjectId("618a355891e3d5b41c6c55f3")},
+  "institute": "Sher-E-Kashmir University of Agricultural Sciences and Technology",
+  "grad_year": 1996
+}])

@@ -1,0 +1,28 @@
+//post likes
+
+db.Post_Likes.insertMany([
+{
+  "post_id": {
+   "$ref": "Posts",
+   "$id":  ObjectId("6173ba05ce3cd7dfabac3336")},
+  "liker_id": {
+   "$ref": "User",
+   "$id":    ObjectId("61739cb1ce3cd7dfabac3327")}
+},
+{
+  "post_id": {
+   "$ref": "Posts",
+   "$id":  ObjectId("6173ba05ce3cd7dfabac3336")},
+  "liker_id": {
+   "$ref": "User",
+   "$id":    ObjectId("61739cb1ce3cd7dfabac3328")}
+},
+{
+  "post_id": {
+   "$ref": "Posts",
+   "$id":  ObjectId("6173ba05ce3cd7dfabac3336")},
+  "liker_id": {
+   "$ref": "User",
+   "$id":    ObjectId("61739cb1ce3cd7dfabac3329")}
+}
+])
