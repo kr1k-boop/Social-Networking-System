@@ -53,11 +53,18 @@ def posts_show():
         st.write(f"{item['post_content']}")
 
 def fleets_show():
+    num = 0
     for item in fleetsitems:
-        st.write(f"Fleet ID: {item['fleet_id']}")
-        st.write(f"Fleet Time: {item['fleet_time']}")
-        st.write(f"Fleet Content: {item['fleet_content']}")
-        st.write(f"Duration: {item['duration']}")
+        num = num+1
+        if num == 5:
+            st.write(f"Fleet ID: {item['fleet_id']}")
+            st.write(f"Fleet Time: {item['fleet_time']}")
+            st.write(f"Fleet Content: {item['fleet_content']}")
+        else:
+            st.write(f"Fleet ID: {item['fleet_id']}")
+            st.write(f"Fleet Time: {item['fleet_time']}")
+            st.write(f"Fleet Content: {item['fleet_content']}")
+            st.write(f"Duration: {item['duration']}")
 
 def main():
     
@@ -87,7 +94,7 @@ def main():
                     st.write(f"Age: {int(item['age'])}")
         
         st.subheader("Users under a certain age")
-        age1 = st.text_input('Input your age here:')
+        age1 = st.text_input('Input age here:')
         if len(age1)!=0: 
             for item in useritems:
                 if int(item['age']) <= int(age1):
@@ -98,9 +105,12 @@ def main():
         st.subheader("View users in a given country")
         country1 = st.text_input('Input country here:')
         if len(country1) != 0: 
-            for item in userhomeitems:
-                if item['country'] == country1:
-                    st.write(f"User ID: {item['user_id']}")
+            for uitem in useritems:
+                uid = str(uitem['_id'])
+                for item in userhomeitems:
+                    uhid = str(item['user_id']).split(",")
+                    if uhid[1][11:-3] == uid and item['country'] == country1 :
+                        st.write(f"{uitem['f_name']} {uitem['l_name']}")
 
     elif choice == "Posts":
         st.subheader("View all posts containing a given string")
@@ -119,6 +129,19 @@ def main():
         st.subheader("View all fleet information")
         if st.button(label = "Fleets"):
             fleets_show()
+        
+        st.subheader("Fleets under a certain duration")
+        del fleetsitems[4]
+        dur1 = st.text_input('Input duration here:')
+        if len(dur1)!=0: 
+            for item in fleetsitems:
+                if(int(item['duration'])) <= int(dur1):
+                    st.write(f"Fleet ID:{item['fleet_id']}")
+                    st.write(f"Fleet content:{item['fleet_content']}")
+                    st.write(f"duration:{item['duration']}")
+
+            
+
 
     elif choice == "Education":
 
