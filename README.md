@@ -25,6 +25,24 @@ This repository contains source code for the Mini-Project we built as part of th
 - Retrieving the ID of all friends for the user with ID "617398d4ce3cd7dfabac3326" and storing in an Array
 - Retrieving all mutual friends between users with IDs "617398d4ce3cd7dfabac3326" and "617398d4ce3cd7dfabac3327" using filters
 
+## Assignment 4
+### Front-End
+- View all users
+- View a user's information
+- View all users under a certain age
+- View all users in a given country
+- View all users who graduated in a certain year
+- View all posts
+- View all posts containing a given string
+- View all friends for a given user
+- View all fleets
+- View all fleets under a certain duration
+
+### Schema Change Statements
+- Make 'Education' a composite attribute under 'User Home'
+- Make 'Post Likes' a composite attribute under 'Posts'
+- Make 'Reply Likes' a composite attribute under 'Replies'
+
 ## Contributors
 - [Kartika Nair](https://github.com/kartika-nair)
 - [Krithika Ragothaman](https://github.com/kr1k-boop)
