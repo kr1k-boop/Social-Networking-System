@@ -1,0 +1,15 @@
+db.User_Home.updateOne({"_id" : ObjectId("61758d2bf1ab2720ac217128")}, {$set : {"Education" : 1}})
+
+//correct
+db.User_Home.updateOne({"_id" : ObjectId("61758d2bf1ab2720ac217128")}, {$set : {"grad_year" :1993, "institute":"PESU"}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+//for post likes
+db.Posts.updateOne({"_id" : ObjectId("6173bbf3ce3cd7dfabac333c")}, {$set : {"liker_id":["617398d4ce3cd7dfabac332e","617398d4ce3cd7dfabac332d","617398d4ce3cd7dfabac332c"],"post_likes":3}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+//for reply likes
+db.Replies.updateOne({"_id" : ObjectId("61756d3df1ab2720ac21710a")}, {$set : {"liker_id":["617398d4ce3cd7dfabac332e","617398d4ce3cd7dfabac332d","617398d4ce3cd7dfabac332c"],"post_likes":3}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+
+
